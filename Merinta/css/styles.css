@@ -1,0 +1,205 @@
+body {
+  background-color: #fff;
+  text-align: center;
+  font-family: 'Lexend Deca', sans-serif;
+  /*background-color: red;*/
+}
+
+hr {
+  margin: 0;
+}
+
+td {
+  width: 60%
+}
+
+table {
+  border: none;
+}
+
+table .price {
+  width: 30%;
+  text-align: right;
+}
+
+p {
+  padding-bottom: 16px;
+  margin-bottom: 0;
+}
+
+.container-fluid {
+  padding: 0;
+  max-width: 1500px;
+}
+
+/* Navbar section */
+
+.navbar {
+  background-color: #DECABF;
+  opacity: 0.7;
+}
+
+.nav-item {
+  padding: 0 1rem;
+  font-size: 1.5rem;
+}
+
+.nav-link {
+  color: #000;
+}
+
+.nav-link:hover {
+  color: grey;
+}
+
+/* Title section */
+
+.title-row {
+  background-image: url("../images/background-board.jpg");
+  background-size: 100%
+}
+
+.title-logo {
+  margin: 15% auto;
+  width: 30rem;
+}
+
+/* About section */
+
+.about-row {
+  background-color: #DECABF;
+  padding: 0 4% 3%;
+  box-shadow: 2px 2px  15px black;
+  z-index: 1;
+}
+
+.about-card {
+  margin: 3rem;
+  width: 50%;
+  height: 70%;
+  box-shadow: 2px 2px  15px black;
+  z-index: 1;
+  background-color: #f2e4f0;
+  padding: 0;
+}
+
+.carousel-item {
+  border: 6px solid;
+}
+
+.card-body-about {
+  background-color: #f2e4f0;
+  padding: 2rem 2rem 5rem;
+}
+
+.card-text {
+  font-size: 1.5rem;
+  font-weight: normal;
+  line-height: 1.5;
+}
+
+.about-heading {
+  font-family: 'Trispace', sans-serif;
+  font-size: 3.5rem;
+  font-weight: 900;
+  padding: 2rem 0;
+}
+
+.social-icon {
+  padding: 0 2rem;
+  color: #000;
+}
+
+.social-icon:hover {
+  color: grey;
+}
+
+.about-text {
+  font-size: 1.5rem;
+}
+
+.aukioaika {
+  font-weight: 900;
+}
+
+/* Price section */
+
+#price-section .container-fluid {
+  z-index: -1;
+}
+
+.row-price {
+  padding: 0 4%;
+}
+
+.price-header {
+  font-family: 'Trispace', sans-serif;
+  font-size: 2.5rem;
+  font-weight: 500;
+  padding: 2rem 0;
+}
+
+.btn {
+  color: #000;
+  background-color: #fff;
+  font-size: 1.5rem;
+  border: none;
+  width: 100%;
+  padding-bottom: 16px;
+}
+
+.btn:hover {
+  color: grey;
+}
+
+
+.card-body {
+  text-align: left;
+  border: none;
+  z-index: -1;
+}
+
+/* Yhteystiedot */
+
+.row-yhteystiedot {
+  background-color: #DECABF;
+  padding: 5% 0 3%;
+  font-weight: 900;
+  box-shadow: -2px -2px  15px black;
+}
+
+.address {
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+/* Responsive */
+
+@media (max-width: 530px) {
+  .nav-item {
+    padding: 0.5rem;
+  }
+}
+
+@media (max-width: 1300px) {
+  .about-card {
+    width: 95%;
+  }
+
+}
+
+@media (min-width: 1500px) {
+  .about-row {
+    margin: 0;
+  }
+
+  #price-section .container-fluid {
+    border-left: 2px solid grey;
+    border-right: 2px solid grey;
+  }
+
+  .title-row {
+    border-left: 2px solid grey;
+    border-right: 2px solid grey;
+  }
+}
