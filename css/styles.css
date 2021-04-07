@@ -173,6 +173,18 @@ p {
   padding-bottom: 0;
 }
 
+.phone {
+  color: #000;
+}
+
+.email-link {
+  color: #000;
+}
+
+.email-link:hover {
+  color: grey;
+}
+
 /* Responsive */
 
 @media (max-width: 530px) {
