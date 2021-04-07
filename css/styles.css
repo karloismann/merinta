@@ -175,7 +175,17 @@ p {
 
 .phone {
   color: #000;
+  text-decoration: none;
   margin-right: 10px;
+}
+
+.phone:hover {
+  color: grey;
+}
+
+.footer-line {
+  margin: 5px;
+  color: #DECABF;
 }
 
 .email-link {
