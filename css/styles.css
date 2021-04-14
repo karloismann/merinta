@@ -49,19 +49,26 @@ p {
 }
 
 .nav-link:hover {
-  color: grey;
+  color: #808080;
 }
+
+.disable {
+  color: #808080;
+}
+
 
 /* Title section */
 
 .title-row {
-  background-image: url("../images/background-board.jpg");
-  background-size: 100%
+  background-image: url("../images/background-dough.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+
 }
 
 .title-logo {
   margin: 15% auto;
-  width: 30rem;
+  width: 50rem;
 }
 
 /* About section */
@@ -69,7 +76,7 @@ p {
 .about-row {
   background-color: #DECABF;
   padding: 0 4% 3%;
-  box-shadow: 2px 2px  15px black;
+  box-shadow: 2px 2px  15px #000;
   z-index: 1;
 }
 
@@ -77,7 +84,7 @@ p {
   margin: 3rem;
   width: 50%;
   height: 70%;
-  box-shadow: 2px 2px  15px black;
+  box-shadow: 2px 2px  15px #000;
   z-index: 1;
   background-color: #f2e4f0;
   padding: 0;
@@ -111,7 +118,7 @@ p {
 }
 
 .social-icon:hover {
-  color: grey;
+  color: #808080;
 }
 
 .about-text {
@@ -126,6 +133,14 @@ p {
 
 #price-section .container-fluid {
   z-index: -1;
+}
+
+.table-head {
+  font-weight: bold;
+}
+
+.sub-table {
+  text-align: center;
 }
 
 .row-price {
@@ -148,8 +163,18 @@ p {
   padding-bottom: 16px;
 }
 
+.btn-subprice {
+  color: #000;
+  background-color: #fff;
+  font-size: 1.1rem;
+  font-weight: bold;
+  border: none;
+  width: 100%;
+  padding-bottom: 16px;
+}
+
 .btn:hover {
-  color: grey;
+  color: #808080;
 }
 
 
@@ -159,13 +184,17 @@ p {
   z-index: -1;
 }
 
+.tayte {
+  border-top: 2px solid #000;
+}
+
 /* Yhteystiedot */
 
 .row-yhteystiedot {
   background-color: #DECABF;
   padding: 5% 0 3%;
   font-weight: 900;
-  box-shadow: -2px -2px  15px black;
+  box-shadow: -2px -2px  15px #000;
 }
 
 .address {
@@ -180,12 +209,7 @@ p {
 }
 
 .phone:hover {
-  color: grey;
-}
-
-.footer-line {
-  margin: 5px;
-  color: #DECABF;
+  color: #808080;
 }
 
 .email-link {
@@ -193,7 +217,7 @@ p {
 }
 
 .email-link:hover {
-  color: grey;
+  color: #808080;
 }
 
 /* Responsive */
@@ -235,17 +259,16 @@ p {
   }
 
   #price-section .container-fluid {
-    border-left: 2px solid grey;
-    border-right: 2px solid grey;
+    border-left: 2px solid #808080;
+    border-right: 2px solid #808080;
   }
 
   .title-row {
-    border-left: 2px solid grey;
-    border-right: 2px solid grey;
+    border-left: 2px solid #808080;
+    border-right: 2px solid #808080;
   }
 
   .about-heading {
     font-size: 3.5;
-    
   }
 }
