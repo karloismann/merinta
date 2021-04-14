@@ -2,6 +2,7 @@ body {
   background-color: #fff;
   text-align: center;
   font-family: 'Lexend Deca', sans-serif;
+  margin-top: 68px;
   /*background-color: red;*/
 }
 
@@ -60,7 +61,10 @@ p {
 /* Title section */
 
 .title-row {
-  background-image: url("../images/background-dough.jpg");
+  background-image: url("../images/background1.jpg");
+  /*credits*/
+  /* Photo by <a href="https://unsplash.com/@mitifotos?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Miti</a>
+   on <a href="https://unsplash.com/s/photos/bakery?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>*/
   background-size: cover;
   background-repeat: no-repeat;
 
@@ -223,6 +227,10 @@ p {
 /* Responsive */
 
 @media (max-width: 530px) {
+
+  body {
+    margin-top: 75px;
+  }
 
   .nav-link {
     font-size: 1rem;
