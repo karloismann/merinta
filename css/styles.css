@@ -96,6 +96,7 @@ p {
 
 .carousel-item {
   border: 6px solid;
+  border-radius: 3px;
 }
 
 .card-body-about {
@@ -167,6 +168,11 @@ p {
   padding-bottom: 16px;
 }
 
+.btn:focus {
+  outline: none;
+  box-shadow: none;
+}
+
 .btn-subprice {
   color: #000;
   background-color: #fff;
@@ -186,10 +192,6 @@ p {
   text-align: left;
   border: none;
   z-index: -1;
-}
-
-.tayte {
-  border-top: 2px solid #000;
 }
 
 /* Yhteystiedot */
